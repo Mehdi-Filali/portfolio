@@ -14,7 +14,10 @@ const Navigation = () => {
     <div className="sidebar">
       <div className="idContent">
         <div className="profil-pic">
-          <img src="./media/profilPic.jpg" alt="profil-pic" />
+          <img
+            src="https://mehdi-filali.github.io/web-portfolio/media/profilPic.jpg"
+            alt="profil-pic"
+          />
           <h1>Mehdi Aniq-Filali</h1>
         </div>
       </div>

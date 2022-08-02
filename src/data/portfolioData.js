@@ -9,7 +9,7 @@ export const portfolioData = [
     languagesIcons: [<FaReact />, <TbBrandJavascript />, <FaSass />],
     source: "http://www.github.com",
     info: "Ici, vous découvrirez un site de réseau social type Instagram. C'est un projet FULLSTACK, le backend tourne sur un autre serveur. Ce projet m'a beaucoup appris quant au fonctionnement et le développement des fonctionnalités que l'on peut voir sur ce genre de sites. Bonne visite ✌️",
-    picture: "./media/mern.png",
+    picture: "https://mehdi-filali.github.io/web-portfolio/media/mern.png",
   },
   {
     id: 2,
@@ -18,7 +18,7 @@ export const portfolioData = [
     languagesIcons: [<FaReact />, <TbBrandJavascript />, <TbBrandCss3 />],
     source: "https://mehdi-filali.github.io/country-app/",
     info: "Une application de recensement des pays par continent et de leur population. Dans ce projet, j'ai travaillé sur les requêtes API avec Axios (useEffect, useState), le mapping et le filtrage de la data (map, filter, sort, slice).",
-    picture: "./media/country.jpg",
+    picture: "https://mehdi-filali.github.io/web-portfolio/media/country.jpg",
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ export const portfolioData = [
     languagesIcons: [<TbBrandJavascript />, <FaSass />, <FaReact />],
     source: "https://mehdi-filali.github.io/la-maison-jungle/",
     info: "La maison jungle est une React app de vente de plantes. Ce projet m'a permis de me familiariser avec le fonctionnement et les fonctionnalités d'un site e-commerce.",
-    picture: "./media/lmj.png",
+    picture: "https://mehdi-filali.github.io/web-portfolio/media/lmj.png",
   },
   {
     id: 4,
@@ -45,7 +45,7 @@ export const portfolioData = [
     languagesIcons: [<TbBrandJavascript />, <TbBrandCss3 />],
     source: "http://www.github.com",
     info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.",
-    picture: "./media/project5.JPG",
+    picture: "https://mehdi-filali.github.io/web-portfolio/media/project5.JPG",
   },
   {
     id: 6,
@@ -54,6 +54,6 @@ export const portfolioData = [
     languagesIcons: [<TbBrandJavascript />, <TbBrandCss3 />, <FaReact />],
     source: "http://www.github.com",
     info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.",
-    picture: "./media/project6.JPG",
+    picture: "https://mehdi-filali.github.io/web-portfolio/media/project6.JPG",
   },
 ];
