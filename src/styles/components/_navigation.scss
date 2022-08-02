@@ -1,0 +1,210 @@
+.sidebar
+{
+  width: 22%;
+  min-height: 97vh;
+  background-color: $color-grey;
+  border-radius: $radius-square;
+  text-align: center;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 300px 1fr 108px;
+  grid-template-areas: "1" "2" "3";
+  
+    .idContent
+    {
+      grid-area: 1;
+      text-align: center;
+      user-select: none;
+      position: relative;
+
+      .profil-pic
+      {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%; 
+
+        img
+        {
+          width: 60%;
+          border-radius: $radius-circle;
+          box-shadow: -1px 1px 4px 0px $color-fadeBlack;
+        }
+
+        h1
+        {
+          margin-top: 0.5em;
+        }
+
+      }
+
+    }
+  
+}
+
+
+.navigation {
+  padding-top: 2em;
+  grid-area: 2;
+  align-self: center;
+
+    ul {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 2em;
+      height: 60%;
+  
+      a {
+        display: flex;
+        text-decoration: none;
+        color: $color-fadeBlack;
+        padding: 10px;
+        grid-column: 2;
+        height: min-content;
+        transition: 0.5s;
+
+        svg {
+          color: $color-fadeBlack;
+          transition: 0.5s;
+        }
+  
+        li {
+          
+          cursor: pointer;
+          padding-left: 1em;
+        }
+
+        &:hover {
+          color: $color-mole;
+          svg {
+            color: $color-mole;
+          }
+        }
+      }
+  
+      .nav-active {
+        position: relative;
+        color: $color-mole;
+        svg
+        {
+          color: $color-mole;
+        }
+  
+        &::after {
+          content: "";
+          height: 4px;
+          width: 0;
+          background: $color-mole;
+          position: absolute;
+          border-radius: 10px;
+          bottom: 0px;
+          left: 50%;
+          transform: translateX(-50%);
+          -webkit-animation: anim 0.3s ease forwards;
+          animation: anim 0.6s ease forwards;
+  
+          @-webkit-keyframes anim {
+            to {
+              width: 100%;
+            }
+          }
+          @keyframes anim {
+            to {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+}
+
+.socials-container
+{
+  grid-area: 3;
+  align-self: center;
+  
+  ul
+  {
+    @include verticalCenter;
+    li
+    {
+      height: 3em;
+      padding: 0 .25em;
+      a
+      {
+        color: $color-fadeBlack;
+        transition: 0.4s;
+        cursor: pointer;
+        svg
+        {
+          height: 100%;
+          width: 100%;
+        }
+
+        &:hover
+        {
+          color: $color-mole;
+        }
+      }
+    }
+  }
+}
+
+.copyright
+{
+  padding-top: 10px;
+  padding-bottom: 1em;
+  p
+  {
+    font-size: .6em;
+  }
+}
+
+@media screen and (max-width: 850px) {
+
+  .sidebar
+  {
+    width: 100%;
+    display: flex;
+    min-height: auto;
+  }
+  
+  .idContent, 
+  .socials-container, 
+  .copyright
+  {
+    display: none;
+  }
+  
+  .navigation
+  {
+    width: 100%;
+    padding: 1em 0;
+  
+    .navigation-container
+    {
+      width: 100%;
+      display: flex !important;
+      justify-content: space-around;
+    }
+  }
+}
+
+@media screen and (max-width: 580px) {
+
+  .navigation
+  {
+    .navigation-container
+    {
+      li
+      {
+        display: none;
+      }
+    }
+  }
+}
+
+
+  

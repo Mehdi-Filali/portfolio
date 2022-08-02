@@ -1,0 +1,108 @@
+@font-face {
+    font-family: "font-1";
+    src: url(../assets/fonts/marc/MarckScript-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: "font-2";
+    src: url(../assets/fonts/comfortaa/Comfortaa-Regular.ttf);
+  }
+
+  $font-1: "font-1", sans-serif;
+  $font-2: "font-2", sans-serif;
+  
+  $color-grey: #dfe0e0;
+  $color-mole: #bd8877;
+  $color-fadeMole: #e3cdc6;
+  $color-fadeBlack: #3d4355;
+  $white: rgb(243, 243, 243);
+  $black: rgb(0, 0, 0);
+
+  $radius-square: 1em;
+  $radius-btn: .4em;
+  $radius-circle: 50%;
+
+  $shadow: -1px 1px 4px 0px #3d4355;
+
+  $min-height: 97vh;
+  
+  @mixin verticalCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -webkit-align-items: center;
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: $white;
+    font-family: $font-2;
+    color: $black;
+    margin: 1em auto;
+    max-width: 75%;
+    // @include verticalCenter;
+
+    @media screen and (max-width: 850px) {
+      max-width: 90%;
+    }
+  }
+
+  h1
+  {
+    font-size: xx-large;
+  }
+
+  h1, h2, h3
+  {
+    font-family: $font-1;
+  }
+
+  button
+  {
+    cursor: pointer;
+  }
+
+  a
+  {
+    text-decoration: none;
+    color: $color-fadeBlack;
+  }
+
+  li {
+    list-style-type: none;
+  }
+
+.home,
+.skills,
+.contact,
+.portfolio
+{
+  display: flex;
+  justify-content: space-around;
+
+  @media screen and (max-width: 850px) {
+    display: block !important;
+  }
+}
+
+.homeContent,
+.skillsContent,
+.contactContent,
+.portfolioContent
+{
+  width: 77%;
+
+  @media screen and (max-width: 850px) {
+    width: 100%;
+    margin-top: 1em;
+    min-height: auto;
+  }
+}
+
+  
