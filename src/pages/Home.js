@@ -13,6 +13,7 @@ const Home = () => {
             <a
               href="https://mehdi-filali.github.io/web-portfolio/media/cv-dev-react.pdf"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Télécharger le CV
             </a>

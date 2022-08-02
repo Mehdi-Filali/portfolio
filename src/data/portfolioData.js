@@ -18,7 +18,7 @@ export const portfolioData = [
     languagesIcons: [<FaReact />, <TbBrandJavascript />, <TbBrandCss3 />],
     source: "https://mehdi-filali.github.io/country-app/",
     info: "Une application de recensement des pays par continent et de leur population. Dans ce projet, j'ai travaillé sur les requêtes API avec Axios (useEffect, useState), le mapping et le filtrage de la data (map, filter, sort, slice).",
-    picture: "https://mehdi-filali.github.io/web-portfolio/media/country.jpg",
+    picture: "https://mehdi-filali.github.io/web-portfolio/media/country.png",
   },
   {
     id: 3,
@@ -36,7 +36,7 @@ export const portfolioData = [
     languagesIcons: [<TbBrandJavascript />, <TbBrandCss3 />, <FaReact />],
     source: "http://www.github.com",
     info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.",
-    picture: "./media/project4.JPG",
+    picture: "https://mehdi-filali.github.io/web-portfolio/media/project4.JPG",
   },
   {
     id: 5,
