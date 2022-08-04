@@ -178,6 +178,10 @@
   }
   @media screen and (max-width: 500px){
     .contactContent {
+      .header
+      {
+        height: 18em;
+      }
       .contactBox {
         min-width: 90% !important;
         min-height: 317px;
