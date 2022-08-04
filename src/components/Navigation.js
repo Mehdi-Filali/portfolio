@@ -25,7 +25,7 @@ const Navigation = () => {
       <div className="navigation">
         <ul className="navigation-container">
           <NavLink
-            to={"/"}
+            to={"/web-portfolio/"}
             className={(nav) => (nav.isActive ? "nav-active" : "")}
           >
             <FaHome />
@@ -33,21 +33,21 @@ const Navigation = () => {
           </NavLink>
 
           <NavLink
-            to={"/skills"}
+            to={"/web-portfolio/skills"}
             className={(nav) => (nav.isActive ? "nav-active" : "")}
           >
             <GiSkills />
             <li>Skills</li>
           </NavLink>
           <NavLink
-            to={"/portfolio"}
+            to={"/web-portfolio/portfolio"}
             className={(nav) => (nav.isActive ? "nav-active" : "")}
           >
             <CgWebsite />
             <li>Portfolio</li>
           </NavLink>
           <NavLink
-            to={"/contact"}
+            to={"/web-portfolio/contact"}
             className={(nav) => (nav.isActive ? "nav-active" : "")}
           >
             <MdOutlineContactless />
