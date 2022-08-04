@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/web-portfolio/static/css/main.be43f044.css",
-    "main.js": "/web-portfolio/static/js/main.548f371b.js",
+    "main.js": "/web-portfolio/static/js/main.a6c9d3f5.js",
     "static/js/787.1ed0c42c.chunk.js": "/web-portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/map.jpg": "/web-portfolio/static/media/map.3e5949c9b6f7cd03bd31.jpg",
     "static/media/Comfortaa-Regular.ttf": "/web-portfolio/static/media/Comfortaa-Regular.051d690872878482e7e7.ttf",
     "static/media/MarckScript-Regular.ttf": "/web-portfolio/static/media/MarckScript-Regular.5b6142752f3269576cc7.ttf",
     "index.html": "/web-portfolio/index.html",
     "main.be43f044.css.map": "/web-portfolio/static/css/main.be43f044.css.map",
-    "main.548f371b.js.map": "/web-portfolio/static/js/main.548f371b.js.map",
+    "main.a6c9d3f5.js.map": "/web-portfolio/static/js/main.a6c9d3f5.js.map",
     "787.1ed0c42c.chunk.js.map": "/web-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.be43f044.css",
-    "static/js/main.548f371b.js"
+    "static/js/main.a6c9d3f5.js"
   ]
 }
