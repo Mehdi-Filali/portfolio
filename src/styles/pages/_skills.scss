@@ -251,13 +251,14 @@
   }
   @media screen and (max-width: 500px){
     .skillsContent {
-      
       grid-template-columns: 1fr !important;
       grid-template-rows: auto !important;
 
       .experience {
         grid-area: 2 !important;
         margin-left: 0 !important;
+        grid-template-rows: 19px auto auto !important;
+        row-gap: 1em;
       }
       .otherSkills {
         grid-area: 3 !important;
