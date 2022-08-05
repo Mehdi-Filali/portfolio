@@ -225,6 +225,14 @@
   }
   @media screen and (max-width: 850px){
     .skillsContent {
+      min-height: auto;
+      height: auto;
+
+      .languagesFrameworks
+      {
+        grid-template-rows: 212px !important;
+      }
+
       h4 {
         font-size: .9rem !important;
       }
@@ -238,7 +246,7 @@
 
       .experience
       {
-        grid-template-rows: 10% 265px 1fr !important;
+        grid-template-rows: 34px 230px 50px !important;
       }
     }
   }
@@ -246,7 +254,7 @@
     .skillsContent {
       display: grid !important;
       grid-template-columns: 1fr !important;
-      grid-template-rows: 16% 54% 40% !important;
+      grid-template-rows: auto !important;
       
       .languages {
         grid-area: 1 !important;
@@ -257,11 +265,62 @@
       }
       .otherSkills {
         grid-area: 3 !important;
-        margin-right: 0 !important;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 34px 105px !important;
+        grid-template-areas:
+            "1"
+            "2";
+        .list
+        {
+          height: auto;
+          ul
+          {
+            grid-template-columns: 1fr;
+            grid-template-rows: 28px 28px 28px;
+            grid-template-areas: "1", "2", "3", "4";
+            display: grid;
+          }
+        }
       }
       .hobbies {
         grid-area: 4 !important;
         margin-top: .5rem !important;
+      }
+    }
+  }
+
+
+  @media screen and (max-width: 350px){
+    .skillsContent {
+      .experience {
+        grid-template-rows: 34px 270px 50px !important;
+        .exp1
+        {
+          display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 34px 26px auto !important;
+        grid-template-areas:
+            "1"
+            "2";
+
+            h4
+            {
+              grid-area: 1;
+            }
+            h5
+            {
+              grid-area: 2;
+            }
+            p
+            {
+              grid-area: 3;
+            }
+            a
+            {
+              grid-area: 4;
+            }
+        }
       }
     }
   }

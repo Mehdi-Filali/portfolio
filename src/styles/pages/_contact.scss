@@ -195,3 +195,26 @@
       }
     }
   }
+
+  @media screen and (max-width: 350px){
+    .contactContent{
+      .contactBox
+      {
+        padding: .4em;
+        span 
+        {
+            font-size: 0.8rem !important;
+        }
+      }
+      .socialNetwork
+      {
+        ul
+        {
+          a 
+          {
+            width: 27%;
+          } 
+        } 
+      }
+    }
+  }

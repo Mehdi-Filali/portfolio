@@ -297,11 +297,16 @@
             h2
             {
               font-size: 1em;
-              width: 58%;
+              width: 54%;
             }
             .sourceCode
             {
-              width: 57% !important;
+              width: 46% !important;
+              a
+              {
+                font-size: .8em;
+                padding: 0.5em;
+              }
             }
           }
 

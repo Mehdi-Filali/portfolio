@@ -66,3 +66,14 @@
       }
     }
   }
+
+  @media screen and (max-width:350px){
+    .homeContent {
+      h1 {
+        font-size: 1.6em !important;
+      }
+      a {
+        font-size: 1em !important;
+      }
+    }
+  }
