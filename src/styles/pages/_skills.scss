@@ -11,14 +11,17 @@
         "L E E"
         "O O H";
   
-      .languagesFrameworks, .experience, .otherSkills, .hobbies {
+      .languagesFrameworks,
+      .experience, 
+      .otherSkills, 
+      .hobbies {
         background: $color-fadeMole;
         border-radius: $radius-square;
         padding: .8rem;
       }
       h3 {
         font-size: 1.4rem;
-        margin-bottom: 1rem;
+        // margin-bottom: 1rem;
         font-family: $font-2;
         // color: $color-fadeMole;
         text-transform: uppercase;
@@ -28,6 +31,7 @@
         grid-area: L;
         margin-bottom: .5rem;
         display: grid;
+        row-gap: 2em;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
         grid-template-areas: 
@@ -228,11 +232,6 @@
       min-height: auto;
       height: auto;
 
-      .languagesFrameworks
-      {
-        grid-template-rows: 212px !important;
-      }
-
       h4 {
         font-size: .9rem !important;
       }
@@ -252,18 +251,10 @@
   }
   @media screen and (max-width: 500px){
     .skillsContent {
-      display: grid !important;
+      
       grid-template-columns: 1fr !important;
       grid-template-rows: auto !important;
-      
-      .languagesFrameworks {
-        grid-area: 1 !important;
 
-        .languagesDisplay
-        {
-          margin-bottom: 1em !important;
-        }
-      }
       .experience {
         grid-area: 2 !important;
         margin-left: 0 !important;
@@ -299,13 +290,15 @@
   @media screen and (max-width: 350px){
     .skillsContent {
       .experience {
-        grid-template-rows: 34px 270px 50px !important;
+        grid-template-rows: 19px auto auto !important;
+        row-gap: 1em;
         .exp1
         {
           display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 34px 26px auto !important;
-        grid-template-areas:
+          grid-template-columns: 1fr;
+          grid-template-rows: 34px 26px auto !important;
+          grid-template-areas:
+
             "1"
             "2";
 
@@ -324,6 +317,7 @@
             a
             {
               grid-area: 4;
+              font-size: .8em;
             }
         }
       }
