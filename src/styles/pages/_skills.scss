@@ -34,7 +34,7 @@
           "L"
           "F";
   
-        .languageDisplay {
+        .languagesDisplay {
           grid-area: L;
         }
         .frameworkDisplay {
@@ -256,8 +256,13 @@
       grid-template-columns: 1fr !important;
       grid-template-rows: auto !important;
       
-      .languages {
+      .languagesFrameworks {
         grid-area: 1 !important;
+
+        .languagesDisplay
+        {
+          margin-bottom: 1em !important;
+        }
       }
       .experience {
         grid-area: 2 !important;
