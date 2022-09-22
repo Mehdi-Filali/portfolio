@@ -7,7 +7,7 @@ export const portfolioData = [
     name: "React Mern - Réseau Social",
     languages: ["React", "Javascript", "Saas"],
     languagesIcons: [<FaReact />, <TbBrandJavascript />, <FaSass />],
-    source: "http://www.github.com",
+    source: "https://warm-anchorage-60753.herokuapp.com/racoont-mern/home",
     info: "Ici, vous découvrirez un site de réseau social type Instagram. C'est un projet FULLSTACK, le backend tourne sur un autre serveur. Ce projet m'a beaucoup appris quant au fonctionnement et le développement des fonctionnalités que l'on peut voir sur ce genre de sites. Bonne visite ✌️",
     picture: "https://mehdi-filali.github.io/web-portfolio/media/mern.png",
   },
