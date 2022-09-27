@@ -1,5 +1,11 @@
 import React from "react";
-import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
+import {
+  BrowserRouter,
+  Navigate,
+  Route,
+  Routes,
+  HashRouter,
+} from "react-router-dom";
 
 import Home from "./pages/Home";
 import Skills from "./pages/Skills";
@@ -9,7 +15,7 @@ import Portfolio from "./pages/Portfolio";
 const App = () => {
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route path="/web-portfolio/" element={<Home />} />
           <Route path="/web-portfolio/skills" element={<Skills />} />
@@ -17,7 +23,7 @@ const App = () => {
           <Route path="/web-portfolio/portfolio" element={<Portfolio />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 };
